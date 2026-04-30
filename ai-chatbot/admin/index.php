@@ -1,0 +1,1 @@
+<?php session_start(); require_once __DIR__ . '/../includes/auth.php'; require_admin_auth(); ?><!doctype html><html><body><h1>AI Chatbot Admin</h1><ul><li><a href='clients.php'>Clients</a></li><li><a href='conversations.php'>Conversations</a></li><li><a href='logout.php'>Logout</a></li></ul></body></html>
